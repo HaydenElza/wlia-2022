@@ -15,11 +15,23 @@ from osgeo import gdal
 composition_file = 'composition.xml'
 output_file = 'test.pdf'
 
-# Bounds of page in geo space
-xmin = 294838.9998751305975020
-xmax = 770036.3720441744662821
-ymin = 225108.8125283487315755
-ymax = 734398.4375955514842644
+# Bounds of layer
+layer_xmin = 294838.9998751305975020
+layer_xmax = 770036.3720441744662821
+layer_ymin = 225108.8125283487315755
+layer_ymax = 734398.4375955514842644
+
+# Calculations for control points
+x_center = (layer_xmin+layer_xmax)/2
+y_center = (layer_ymin+layer_ymax)/2
+layer_width = layer_xmax-layer_xmin
+layer_height = layer_ymax-layer_ymin
+
+# Control points
+xmin = x_center-(layer_width/2*1.10)
+xmax = x_center+(layer_width/2*1.10)
+ymin = y_center-(layer_height/2*11/8.5*1.10)
+ymax = y_center+(layer_height/2*11/8.5*1.10)
 
 # Composition file
 xml_content = """
