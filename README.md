@@ -18,6 +18,8 @@ Run `create_pdfs.py` to create `test.pdf`. It takes the Wisconsin state outline 
 
 **Parcels - Downtown Madison WI:** Basic export from desktop GIS (QGIS). Explore layers, roads off by default, measure distance, explore features with data object tool.
 
+See `example_pdfs/parcels - madsion` for QGIS map files to see how random color palette symbology is done.
+
 **Tampa FD Temporal:** Fire department service calls each day in Tampa. JavaScript bookmark allows for animation of data.
 
 **Derived Mountain Scene - Utah:** 3D animation/interface for ortho draped over LiDAR. Explore the area in 3D space and checkout the bookmarks for a vantage point.
