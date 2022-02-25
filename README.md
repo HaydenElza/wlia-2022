@@ -8,6 +8,8 @@ This is a repository for my presentation at WLIA 2022.
 
 *You’ve probably used PDF maps before and you’ve probably even heard of a GeoPDF, but did you know that PDFs can have javascript? In this talk I will explore PDF maps from the simple interactive map exported from QGIS or GDAL to a more complicated example the pushes the limits of what can be achieved in PDFs.*
 
+![image](https://user-images.githubusercontent.com/10215346/155614799-0ba33d67-1743-40a8-8c65-e4084af0cea8.png)
+
 ## Make GeospatialPDF with GDAL and Composition File
 
 See `gdal` directory.
