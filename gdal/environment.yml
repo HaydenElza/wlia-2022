@@ -1,0 +1,6 @@
+name: wlia2022_env
+channels:
+  - defaults
+dependencies:
+  - gdal=3.4.1
+  - python=3.9.7
