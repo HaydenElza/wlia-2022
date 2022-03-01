@@ -1,4 +1,4 @@
-# WLIA 2022
+# PDF Maps: From Static to Interactive to “Wait, I Didn’t Know PDFs Could Do That!”
 
 This is a repository for my presentation at WLIA 2022.
 
